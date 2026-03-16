@@ -16,5 +16,23 @@ namespace PrimerExamenParcial_LuisMayorga
         {
             InitializeComponent();
         }
+
+        private void buttonRegistrarDoctor_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
+
+        private void buttonRegistrarPaciente_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+        }
+
+        private void buttonRegistarCitas_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.ShowDialog();
+        }
     }
 }
